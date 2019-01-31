@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>アカウント</title>
+		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="../css/reset.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+		 	$(
+		 		function(){
+		 			$(".menu_icon").on("click",function(){
+		 				$(".menu").slideToggle(600);
+		 			});
+		 			$(".menu ul li ").on("mouseover",function(){
+		 				$(this).css("background-color","rgba(255,255,255,0.3");
+		 			});
+		 			$(".menu ul li ").on("mouseout",function(){
+		 				$(this).css("background-color","rgba(0,4,53");
+		 			});
+
+
+		 		});
+
+		</script>	
+	</head>
+	<body>
+		<!-- headerここから -->
+	<div class="header">
+		<h1>アカウント一覧</h1>
+		<div class="logout">
+			<p>ログアウト</p>
+		</div>
+		<div class="menu_icon">
+			<img src="../images/menu.png">
+		</div>
+		<div class="menu">
+			<ul>
+				<a href="../Dashboard/index.html">
+					<li><img src="../Images/dashboard.png">ダッシュボード</li>
+				</a>
+				<a href="../Account/index.html">
+					<li><img src="../Images/account.png">アカウント一覧</li>
+				</a>
+				<a href="../Client/index.html">
+					<li><img src="../Images/client.png">取引先一覧</li>
+				</a>
+				<a href="../Setting/index.html">
+					<li><img src="../Images/setting.png">設定</li>
+				</a>
+				<a href="../Material/index.html">
+					<li><img src="../Images/material.png">資材一覧</li>
+				</a>
+				<a href="../Estimate/index.html">
+					<li><img src="../Images/estimate.png">見積書一覧</li>
+				</a>
+				<a href="../Order/index.html">
+					<li><img src="../Images/order.png">受注書一覧</li>
+				</a>
+				<a href="../invoice/index.html">
+					<li><img src="../Images/invoice.png">請求書一覧</li>
+				</a>
+				<a href="#">
+					<li><img src="../Images/setting.png">ログアウト</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+<!-- headerここまで -->
+<!-- sidebarここから -->
+		<div class="sidebar">
+			<!-- <div class="sidebar_bg"> -->
+			<div class="sidebar_contents">
+				<ul>
+					<a href="../Dashboard/index.html">
+					<li><img src="../Images/dashboard.png">ダッシュボード</li>
+				</a>
+				<a href="../Account/index.html">
+					<li><img src="../Images/account.png">アカウント一覧</li>
+				</a>
+				<a href="../Client/index.html">
+					<li><img src="../Images/client.png">取引先一覧</li>
+				</a>
+				<a href="../Setting/index.html">
+					<li><img src="../Images/setting.png">設定</li>
+				</a>
+				<a href="../Material/index.html">
+					<li><img src="../Images/material.png">資材一覧</li>
+				</a>
+				<a href="../Estimate/index.html">
+					<li><img src="../Images/estimate.png">見積書一覧</li>
+				</a>
+				<a href="../Order/index.html">
+					<li><img src="../Images/order.png">受注書一覧</li>
+				</a>
+				<a href="../invoice/index.html">
+					<li><img src="../Images/invoice.png">請求書一覧</li>
+				</a>
+				</ul>
+			</div>
+		<!-- </div> -->
+		</div>
+<!-- sidebarここまで -->
+<!-- listここから -->
+		<div class="list_wrapper">
+			<div class="list_bg">
+				<div class="list_search">
+					<input type="text" placeholder="キーワードを入力">
+					<img src="../images/search.png">
+				</div>
+				<div class="create_new_btn">
+					<a href="create_new_account.html">
+						<p>新規作成</p>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="list list_8">
+				<div class="list_items list_title">社員番号</div>
+				<div class="list_items list_title">名前</div>
+				<div class="list_items list_title">役職</div>
+				<div class="list_items list_title">ステータス</div>
+				<div class="list_items list_title">売上</div>
+				<div class="list_items list_title">&nbsp;</div>
+				<div class="list_items list_title">詳細</div>
+				<div class="list_items list_title">編集</div>
+				<div class="list_items">1111111</div>
+				<div class="list_items">山田太郎</div>
+				<div class="list_items">部長</div>
+				<div class="list_items ">稼働中</div>
+				<div class="list_items">¥100000</div>
+				<div class="list_items">&nbsp;</div>
+				<div class="list_items"><a href="#"><img src="../Images/detail.png"></a></div>
+				<div class="list_items"><a href="#"><img src="../Images/edit.png"></a></div>
+			</div>
+		</div>
+
+
+	</body>
+</html>
